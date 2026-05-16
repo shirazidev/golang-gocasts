@@ -13,7 +13,7 @@ func main() {
 	p = &i
 
 	fmt.Println("p after assigning i's pointer to it:", p)
-	fmt.Println("value that p is refrencing to:", *p, "\n")
+	fmt.Println("value that p is refrencing to:", *p)
 
 	d := 44
 	p = &d
